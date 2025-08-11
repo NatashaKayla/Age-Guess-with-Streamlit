@@ -9,7 +9,7 @@ st.title("🧒👩‍💼 Age Guess Based on Chat Responses")
 st.caption("Predict the age group from five short text responses.")
 
 # ---------------- Config ----------------
-MODEL_PATH = "models/age_guess_best_pipeline.joblib"
+MODEL_PATH = "age_guess_best_pipeline.joblib"
 
 # Your exact 5 questions
 QUESTIONS = [
@@ -110,4 +110,5 @@ if submitted:
             preds = [row["Prediction"] for row in rows]
             final_label = pd.Series(preds).mode().iloc[0]
             st.info("Probabilities unavailable → using majority vote.")
+
             st.success(f"🏁 Final Age Group: **{final_label}**")
