@@ -74,7 +74,7 @@ def average_probs(topk_list):
     return {c: float(np.mean(v)) for c, v in agg.items()}
 
 # --------------- Two-column form ---------------
-st.markdown("Answer each question (right column), then click **Predict**.")
+st.markdown("Answer each question, then click **Predict**.")
 with st.form("age_guess_form"):
     answers = []
     for i, q in enumerate(QUESTIONS, start=1):
@@ -112,3 +112,4 @@ if submitted:
             st.info("Probabilities unavailable → using majority vote.")
 
             st.success(f"🏁 Final Age Group: **{final_label}**")
+
