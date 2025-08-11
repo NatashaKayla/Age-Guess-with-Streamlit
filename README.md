@@ -27,7 +27,7 @@ This project covers the full workflow: text preprocessing, model training (TF-ID
 4) *How do you usually spend your weekends?*  
 5) *What’s your favorite way to spend free time?*
 
-**Target labels (example):** `Gen Alpha`, `Gen Z`, `Millennial`, `Gen X`, `Boomer`.
+**Target labels :** `Gen Alpha`, `Gen Z`, `Millennial`, `Gen X`, `Boomer`.
 
 ---
 
