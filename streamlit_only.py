@@ -6,7 +6,6 @@ import re
 
 st.set_page_config(page_title="Age Guess Based on Chat Responses", layout="centered")
 st.title("🧒👩‍💼 Age Guess Based on Chat Responses")
-st.caption("Predict the age group from five short text responses.")
 
 # ---------------- Config ----------------
 MODEL_PATH = "age_guess_best_pipeline.joblib"
@@ -112,4 +111,5 @@ if submitted:
             st.info("Probabilities unavailable → using majority vote.")
 
             st.success(f"🏁 Final Age Group: **{final_label}**")
+
 
