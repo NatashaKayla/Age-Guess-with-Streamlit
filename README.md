@@ -1,7 +1,4 @@
-Here’s a clean **README.md** for your Age Guess project (English). It follows the style of your reference and matches your setup (Streamlit-only by default, with tips for hosting the model file).
-
-```markdown
-# Age Guess Based on Chat Responses
+# 🧒👩‍💼 Age Guess Based on Chat Responses
 
 Predict a user's **age group** from **five short text answers**.  
 This project covers the full workflow: text preprocessing, model training (TF-IDF + classifier), packaging the best **scikit-learn Pipeline**, and a Streamlit app for interactive prediction.
