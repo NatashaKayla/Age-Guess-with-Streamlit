@@ -49,7 +49,7 @@ This project covers the full workflow: text preprocessing, model training (TF-ID
 
 ---
 
-## 🖥 Streamlit App (inference)
+## 🖥 Streamlit App
 
 - Two-column form: **left = question**, **right = answer**.  
 - Sends the 5 answers through the saved Pipeline.  
@@ -60,16 +60,10 @@ This project covers the full workflow: text preprocessing, model training (TF-ID
 
 ---
 
-## 🔍 Evaluation (training notebook)
+## 🔍 Evaluation
 
 Typical metrics to report:
 
 * **Accuracy** and **Macro-F1** on a hold-out test set
 * **Classification report** per class
 * **Confusion matrix** (counts + row-normalized)
-
----
-
-## 🚀 Live Demo
-
-Try the app here: https://age-guess-with-app.streamlit.app/
